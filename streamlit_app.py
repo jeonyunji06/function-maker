@@ -40,7 +40,7 @@ if menu == "1. 무리식의 정의와 실수가 될 조건":
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        expr_style = st.radio("1. 탐구할 무리식 형태 선택", ["기본 무리식 형태: √(ax + b)", "분모 무호 형태: 1 / √(ax + b)"])
+        expr_style = st.radio("1. 탐구할 무리식 형태 선택", ["기본 무리식 형태: √(ax + b)", "분모 무리식 형태: 1 / √(ax + b)"])
         a_1 = st.number_input("2. x의 계수 (a) 입력", value=1.0, step=0.5, key="a_1")
         b_1 = st.number_input("3. 루트 안의 상수항 (b) 입력", value=2.0, step=1.0, key="b_1")
         
